@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <GlobalProvider>
      <Header />
      <div className="container">
        <Balance />
@@ -19,7 +19,7 @@ function App() {
        <TransactionList />
        <AddTransaction />
      </div>
-    </div>
+    </GlobalProvider>
   );
 }
 
